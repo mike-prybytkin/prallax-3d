@@ -1,1 +1,0 @@
-# prallax-3d
