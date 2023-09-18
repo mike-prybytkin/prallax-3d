@@ -1,0 +1,21 @@
+.button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  @extend %transition;
+}
+
+.button_bordered {
+  padding: 10px 20px;
+  border: 2px solid $color-light;
+  border-radius: 10em;
+  color: $color-text-primary;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  background: #0000007b;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}

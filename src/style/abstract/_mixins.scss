@@ -1,0 +1,20 @@
+@mixin font-primary ($size: 1.6rem, $weight: 700, $color: $color-text-primary) {
+  font-family: 'Oswald', 'Verdana', 'Geneva', sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin font-additionary ($size: 1.4rem, $weight: 400, $color: $color-text-primary) {
+  font-family: 'Merriweather', 'Times New Roman', 'Times', serif;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin flex ($justify: center, $align: center, $flow: row wrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-flow: $flow;
+}

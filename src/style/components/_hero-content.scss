@@ -1,0 +1,17 @@
+.hero-content {
+  text-align: center;
+
+  .hero-content__title {
+    font-size: calc($view-index * 3);
+    text-transform: uppercase;
+    letter-spacing: calc($view-index * 0.4);
+    line-height: calc($view-index * 2.2);
+    margin: 0;
+    text-shadow: #575518 2px 2px 0px, #9C9C9C 4px 4px 0px;
+  }
+
+  .hero-content__text {
+    @include font-additionary ($size: calc($view-index * 1));
+    text-shadow: #575518 1px 1px 0px, #9C9C9C 2px 2px 0px;
+  }
+}

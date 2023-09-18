@@ -1,0 +1,16 @@
+.logo {
+  position: relative;
+  z-index: 1;
+  @include flex($align: start);
+
+  .logo__img {
+    position: absolute;
+    top: calc($view-index * 3);
+    width: calc($view-index * 7);
+    height: calc($view-index * 7);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px $color-logo-border solid;
+    box-shadow: 0 0 10px $color-logo-border;
+  }
+}
